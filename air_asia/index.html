@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Air Asia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <div class="wrapper">
+    <div class="container">
     <header class="header">
       <div class="logo">
         <a href="#" class="logo__link">
@@ -28,7 +31,7 @@
         </ul>
       </nav>
       <address class="phones">
-        <a href="" class="phones__number">8 800 700 30 30</a>
+        <a href="№" class="phones__number">8 800 700 30 30</a>
         <div class="phones__graph">График работы</div>
       </address>
     </header>
@@ -45,23 +48,23 @@
       <div class="options">
         <div class="options__start">
             <h2 class="options__title">Горящие туры</h2>
-            <img src="./img/flame.png" alt="flame" class="options__img">
         </div>
           <ul class="options__list">
             <li class="options__item">
-              <img src="./img/river.png" alt="Тайланд" class="options__image">
-              <h3 class="options__caption">Тайланд</h3>
-
+           <div class="options__item-block">
+              <img src="/img/river.png" alt="Тайланд" class="options__image">
+            </div>
+               <h3 class="options__caption">Тайланд</h3>
               <div class="options__info">
                 <div class="options__info-block">
-              <img src="./img/calendar.png" alt="days" class="options__info-icon">
+                  <!-- <img src="./img/calendar.png" alt="days" class="options__info-icon"> -->
               <div class="options__info-text">
                 <span class="options__info-min">7</span>-<span class="options__info-max">12</span> ночей
               </div>
               </div>
               <div class="options__info-block">
-              <img src="./img/meal.png" alt="food" class="options__info-icon">
-              <div class="options__info-text">Завтраки</div>        
+              <!-- <img src="./img/meal.png" alt="food" class="options__info-icon"> -->
+              <div class="options__info-text-meal">Завтраки</div>        
             </div>
             </div>
 
@@ -69,25 +72,27 @@
                 Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
               </div>
               <div class="options__button">
-                <button class="button">
+                <button class="button button--white">
                   Смотреть
                 </button>
               </div>
             </li>
 
             <li class="options__item">
-              <img src="./img/pool.png" alt="Бали" class="options__image">
+              <div class="options__item-block">
+              <img src="./img/mountains.png" alt="Бали" class="options__image">
+              </div>
               <h3 class="options__caption">Бали</h3>
               <div class="options__info">
                 <div class="options__info-block">
-              <img src="./img/calendar.png" alt="days" class="options__info-icon">
+              <!-- <img src="./img/calendar.png" alt="days" class="options__info-icon"> -->
               <div class="options__info-text">
                 <span class="options__info-min">7</span>-<span class="options__info-max">12</span> ночей
               </div>
               </div>
               <div class="options__info-block">
-              <img src="./img/meal.png" alt="food" class="options__info-icon">
-              <div class="options__info-text">Завтраки</div>        
+              <!-- <img src="./img/meal.png" alt="food" class="options__info-icon"> -->
+              <div class="options__info-text-meal">Завтраки</div>        
             </div>
             </div>
               <div class="options__text">
@@ -100,25 +105,27 @@
               </div>
             </li>
             <li class="options__item">
+              <div class="options__item-block">
               <img src="./img/ocean.png" alt="Индонезия" class="options__image">
+              </div>
               <h3 class="options__caption">Индонезия</h3>
               <div class="options__info">
                 <div class="options__info-block">
-              <img src="./img/calendar.png" alt="days" class="options__info-icon">
+              <!-- <img src="./img/calendar.png" alt="days" class="options__info-icon"> -->
               <div class="options__info-text">
                 <span class="options__info-min">7</span>-<span class="options__info-max">12</span> ночей
               </div>
               </div>
-              </div>
-            <div class="options__info-block">
-              <img src="./img/meal.png" alt="food" class="options__info-icon">
-              <div class="options__info-text">Завтраки</div>        
+              <div class="options__info-block">
+              <!-- <img src="./img/meal.png" alt="food" class="options__info-icon"> -->
+              <div class="options__info-text-meal">Завтраки</div>        
+            </div>
             </div>
               <div class="options__text">
                 Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
               </div>
               <div class="options__button">
-                <button class="button">
+                <button class="button button--white">
                   Смотреть
                 </button>
               </div>
@@ -129,7 +136,7 @@
       <h2 class="news__title">Новости и акции</h2>
       <ul class="news__list">
         <li class="news__item">
-          <img src="./img/plain.png" alt="plain" class="news__image">
+          <img src="/img/plain.png" alt="plain" class="news__image">
           <div class="news__content">
             <div class="news__date">
               <span class="news__date-month">Декабрь</span>
@@ -190,9 +197,9 @@
         </ul>
       </div>
       <div class="about">
-        <img src="./img/gates.png" alt="Gates" class="about__image">
+        <!-- <img src="./img/gates.png" alt="Gates" class="about__image"> -->
         <div class="about__content">
-          <img src="./img/mountains.png" alt="Mountains" class="about__img">
+          <!-- <img src="./img/mountains.png" alt="Mountains" class="about__img"> -->
           <h2 class="about__title">О нас</h2>
           <div class="about__text">
             Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
@@ -254,5 +261,6 @@
       </address>
     </footer>
   </div>
+</div>
 </body>
 </html>
