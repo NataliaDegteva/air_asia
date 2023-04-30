@@ -1,0 +1,15 @@
+.socials{
+  /* margin-left: 100px;*/
+    margin-top: 50px;}
+ 
+ .phones__text {
+   color:#9A9A9A;
+   font-size: 11px;
+ }
+ 
+ .socials__item {
+   margin-right: 10px;
+ }
+ .socials__item:last-child {
+   margin: 0;
+ }

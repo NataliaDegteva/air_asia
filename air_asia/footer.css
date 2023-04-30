@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 146px;
+}
+
+.footer .menu {
+  margin-top: 59px;
+/* margin-left: 100px;*/
+}
+
+.footer .logo {
+    margin-top: 45px;
+  }
+
+  .footer .phones {
+   margin-top: 42.14px;
+  }
+  
+
+.footer__page {
+  background:  #001821;
+  margin-top: auto;
+  height: 132px;
+}
+.footer__page--section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.footer__page--container {
+  padding: 35px 0;
+}
+
+.footer__page .menu {
+  margin-right: 120px;
+  margin-top: 5px;
+}

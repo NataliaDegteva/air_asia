@@ -1,0 +1,15 @@
+.preview {
+  width: 511px;
+ }
+ 
+ .preview__title {
+   font-weight: 700;
+   font-size: 72px;
+   margin-bottom: 27.5px;
+ }
+ 
+ .preview__text {
+   font-size: 18px;
+   margin-bottom: 33.5px;
+ }
+ 

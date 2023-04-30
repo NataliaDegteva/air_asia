@@ -1,0 +1,38 @@
+.function__container {
+  background-color: #F2F2F2;
+  margin-top: 98px;
+}
+
+.function__list {
+  margin-top: 98px;
+}
+
+.function__item {
+  display: flex;
+}
+
+.function__info {
+  color: #000;
+  margin-top: 30px;
+}
+
+.function__text {
+  color: #303030;
+  font-size: 16px;
+ padding: 28.5px 0 34.5px;
+  color: #303030;
+  width: 100%;
+
+}
+
+.function__image {
+  margin-bottom: 49px;
+  margin-right: 56px;
+  width: 460px;
+height: 333px;
+border-radius: 5px;
+}
+
+.function__title {
+  font-size: 36px;
+}

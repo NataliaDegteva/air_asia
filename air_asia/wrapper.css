@@ -1,0 +1,7 @@
+.wrapper {
+  width: 100%;
+ min-height: 100%;
+  overflow-x: hidden;
+  background:  url("./img/1.png") center top no-repeat, url("./img/2.png") center bottom 250px no-repeat;
+  background-color: #001821;
+}

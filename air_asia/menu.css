@@ -1,0 +1,17 @@
+.menu {
+  margin-top: 42px;
+  margin-right: 250px;
+  display: flex;
+}
+.menu__item {
+  font-size: 14px;
+  margin-right: 54px;
+  vertical-align: middle;
+ 
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__item:hover {
+  color: #F5170E}

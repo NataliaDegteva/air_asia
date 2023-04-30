@@ -1,0 +1,15 @@
+.phones {
+  margin-top: 27px;
+  margin-right: 25px;
+  text-align: right;
+}
+
+.phones__number {
+  font-size: 26px;
+  font-style: normal;
+  margin-bottom: 2px;
+}
+
+.phones__graph {
+  font-size: 13px;
+  top: 55.14px;}

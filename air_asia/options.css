@@ -1,0 +1,81 @@
+.options {
+  margin-bottom: 127px;
+  margin-top: 264px;
+}
+.options__container {
+  padding: 33px 16px 26px 24px;
+}
+.options__item-block {
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+
+.options__image {
+width: 100%;
+height: 100%;
+}
+.options__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.options__title:after {
+  content: "";
+  display:inline-block;
+  width: 21px;
+  height: 28px;
+  margin-left: 12px;
+  background: url(./img/flame.png);
+}
+
+.options__item {
+  display:inline-block;
+  width: 350px;
+  min-height: 305px;
+  margin-right: 27px;
+  position: relative;
+  background: #fff;
+  border-radius:  5px;
+  overflow: hidden;
+}
+.options__item:last-child {
+  margin-right: 0 ;
+}
+.options__caption {
+  margin: 23px 22px 23px;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+}
+.options__info-block {
+  display:inline-block;
+  position: relative;
+  color: #666666;
+}
+
+.options__text {
+  font-size: 14px;
+ padding: 26.5px 22px 24.5px 16px;
+  color: #303030;
+ width: 324px;
+} 
+
+.options__info-text:before {
+  content: "";
+  display:inline-block;
+  width: 26px;
+  height: 26px;
+  margin-left: 28px;
+  margin-right: 10px;
+background: url(./img/calendar.png);}
+
+.options__info-text-meal:before {
+  content: "";
+  display:inline-block;
+  width: 36px;
+  height: 26px;
+  margin-left: 28px;
+  margin-right: 10px;
+background: url(./img/meal.png);
+}

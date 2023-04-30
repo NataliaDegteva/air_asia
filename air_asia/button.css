@@ -1,0 +1,27 @@
+.button {
+  background:  #F5170E;
+border-radius: 35px;
+width: 168px;
+height: 55px;
+color: #fff;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+}
+.button:hover {
+  background: #fff;
+  border: 2px solid #F5170E;
+  color:#F5170E;
+}
+
+.button--white {
+  background: #fff;
+  color:#F5170E;
+  border: 2px solid #F5170E;
+}
+
+.button--white:hover {
+  background: #F5170E;
+  color: #fff
+}
