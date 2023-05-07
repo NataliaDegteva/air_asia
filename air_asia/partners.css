@@ -1,7 +1,8 @@
 
-.section__partner {
-  background-color:  #F4F5F5;
-  margin-bottom: 117px;
+.partners {
+  background: #F4F5F5;
+  padding-bottom: 117px;
+  padding-top: 88px;
 }
 
 .partner__title {
@@ -9,12 +10,12 @@ font-weight: 700;
 font-size: 48px;
 color: #1A1B1E;
 margin-bottom: 99px;
-margin-top: 88px;
 }
 
 .partner__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .partner__link {
@@ -28,4 +29,12 @@ margin-top: 88px;
 
 .partner__link:hover {
   filter: grayscale(0)
+}
+
+.partner__link--airbaltic {
+  padding-right: 45px;
+}
+
+.partner__link--pegasus {
+  padding-right: 50px;
 }

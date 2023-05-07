@@ -8,6 +8,7 @@ font-size: 14px;
 text-align: center;
 text-transform: uppercase;
 font-weight: 700;
+cursor: pointer;
 }
 .button:hover {
   background: #fff;
@@ -24,4 +25,29 @@ font-weight: 700;
 .button--white:hover {
   background: #F5170E;
   color: #fff
+}
+
+.button--black {
+  background: #2B2B2B;
+}
+
+.button--black:hover {
+  background: #8E8E8E;
+  color: #FFFFFF;
+  border: none;
+}
+
+.form__button {
+  margin-right: 17px;
+
+}
+
+.form__button:last-child {
+  margin-right: 0px;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 96px;
 }

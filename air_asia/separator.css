@@ -1,0 +1,13 @@
+.separator {
+  background: url(./img/couple.png) right 10% bottom no-repeat, url(./img/Rectangle.png) no-repeat;
+  height: 360px;
+overflow: hidden;
+}
+  .separator__title {
+    max-width: 50%;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    line-height: 1.1;
+    padding-top: 150px;
+  }

@@ -1,0 +1,17 @@
+
+.feedback__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: 400;
+  color: #303030;
+  padding: 10px 18px;
+  border-radius: 35px;
+}
+
+.tag--color {
+  background: #B9EAE4;
+}

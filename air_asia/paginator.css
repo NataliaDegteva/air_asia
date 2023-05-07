@@ -36,7 +36,8 @@ transition: 0.4s;
 
 .paginator__service {
   text-align: center;
-  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 91px;
 }
 
 .paginator__display--service {
@@ -51,4 +52,10 @@ transition: 0.4s;
 .paginator__link--service:hover {
   background: #F5170E;
   color: #fff;
+}
+
+.paginator__service--review {
+  padding-bottom: 92px;
+  padding-top: 75px;
+  background-color: #fff;
 }

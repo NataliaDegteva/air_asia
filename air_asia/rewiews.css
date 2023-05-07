@@ -1,0 +1,11 @@
+.section__reviews {
+  background: #F4F5F5;
+}
+
+.reviews__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #1A1B1E;
+    padding-bottom: 76px;
+    padding-top: 62px;
+}
