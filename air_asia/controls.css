@@ -3,9 +3,14 @@
   cursor: pointer;
 }
 
+.controls__tag {
+  background: #e7e7e7;
+}
+
 .controls__checkbox:checked ~ .controls__tag {
   background: #B9EAE4;
 }
+
 
 .controls__checkbox {
   display: none;
@@ -21,12 +26,16 @@
   flex-wrap: wrap;
 }
 
+.controls__list {
+  margin-left: 95px;
+}
+
 .controls__item {
 margin-bottom: 9px;
 }
 .form__controls-title {
-  width: 40%;
+  width: 31%;
   color: #1A1B1E;
   font-size: 18px;
-  padding-left: 10px;
+  white-space: nowrap;
 }

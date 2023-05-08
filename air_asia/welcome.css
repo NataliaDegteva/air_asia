@@ -1,14 +1,25 @@
 .welcome {
   display: flex;
-  position: absolute;
+  position: relative;
  top: 0;
  left: 0;
  width: 100%;
  height: 100%;
  align-items: center;
  justify-content: center;
- background:url(./img/shades.png) center top 296px no-repeat, url(./img/bg.png) center top -90px no-repeat;
- background-color: #001821;
+ background: url(./img/bg.png);
+ background-size: cover;
+}
+
+.welcome__container:before {
+  content: "";
+  background:url(./img/shades.png);
+  width: 591px;
+  height: 248px;
+  position: absolute;
+ top:43%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
 
 .central {
@@ -16,7 +27,6 @@
   flex-direction: column;
   align-items: center;
   animation: bounce 1s ease-out forwards;
- 
 }
 
 @keyframes bounce {
