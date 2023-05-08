@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.phones {
+  color: #fff;
+}
+
 
 .phones__number {
   font-size: 26px;
@@ -16,3 +20,11 @@
 .phones__graph {
   font-size: 13px;
   top: 55.14px;}
+
+  .phones__link {
+    text-decoration: underline;
+    color: #98A4A8;
+  }
+  .phones__link:hover{
+    color: #fff;
+  }

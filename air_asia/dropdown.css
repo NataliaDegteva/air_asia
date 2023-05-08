@@ -1,7 +1,6 @@
 .dropdown {
   display: inline-block;
   position: relative;
-  
 }
 
 .dropdown:before {
@@ -10,7 +9,7 @@
   height: 100px;
   left: 0;
   right: 0;
-  top: -10px;
+  top: 12px;
   position: absolute;
 
 }
@@ -43,7 +42,7 @@
 
 .dropdown:hover .dropdown__menu {
   left: 0;
-  opacity: 1;
+  opacity: .8;
 }
 
 .dropdown__list {

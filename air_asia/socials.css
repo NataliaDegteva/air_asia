@@ -21,6 +21,10 @@
   position: relative;
  }
 
+ .socials__item:hover {
+  cursor: pointer;
+ }
+
  .socials__item:after {
   content: "";
   display: block;
@@ -31,18 +35,35 @@
   width: 36px;
   height: 36px;
  }
- .socials__item--tg:after {
-  background: url(./img/sprites.png) -66px -10px;
+ .socials__item--tg {
+  background: url(./img/sprites.png) -10px -122px;
+ }
+ 
+ .socials__item--tg:hover {
+  background: url(./img/sprites.png) -66px -66px;
  }
 
+
  .socials__item--vk {
-  background: url(./img/sprites.png) -66px -66px;
+  background: url(./img/sprites.png) -66px -122px;
+ }
+
+ .socials__item--vk:hover {
+  background: url(./img/sprites.png) -122px -10px;
  }
 
  .socials__item--fb {
 background: url(./img/sprites.png) -10px -10px;
  }
 
+ .socials__item--fb:hover {
+  background: url(./img/sprites.png) -66px -10px;
+   }
+
  .socials__item--in {
+  background:url(./img/sprites.png) -122px -66px;
+ }
+
+ .socials__item--in:hover {
   background:url(./img/sprites.png) -10px -66px;
  }
